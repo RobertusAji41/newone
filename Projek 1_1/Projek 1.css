@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+}
+  
+a {
+  text-decoration: none;
+}
+  
+body {
+  background-color:gainsboro; 
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+  
+header {
+  width: 100%;
+  background-color: rgba(42, 150, 172, 0.9);
+  position:fixed;
+  top:0;
+  z-index:10;
+} 
+ 
+.header-left {
+  float:left;
+}
+
+.header-right {
+  float:right;
+  background-color: rgba(255,255,255,0.3);
+  transition:0.5;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.login {
+  line-height:65px;
+  padding:0 25px;
+  display:block;
+}
+
+.title-header {
+  color: white;
+  font-family: "Candara";
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://c.pxhere.com/photos/3e/08/sunset_beach_hawaii_romantic_hawaii_beach_summer_tropical_silhouette-857581.jpg!d);
+  background-size: cover;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 50px;
+  letter-spacing: 5px;
+  margin-bottom:10px;
+  color:white;
+}
+
+.reasons {
+  width: 33%;
+  float:left;
+}
+
+.reasons img {
+  height:150px;
+  width: 150px;
+  padding-top: 60px;
+  padding-bottom: 5px;
+  margin-left: 20px;
+}
+
+.reasons h3 {
+  width:80%;
+  display:inline-block;
+  font-size:20px;
+  font-weight: normal;
+  margin-left: 40px;
+  color:black;
+  text-align: center;
+  font-family: Japanese Brush;
+}
+
+.reason {
+  margin:90px;
+}
+
+.middle-wrapper {
+  height: 400px;
+  padding-bottom: 150px;
+  background-color: whitesmoke;
+	text-align: center;
+}
+
+.middle-wrapper h4 {
+  padding-bottom: 100px;
+  margin-bottom: 150px;
+  margin-right: auto;
+  text-align: 50px;
+  font-size: 30px;
+  font-family: "Garamond";
+}
+
+.theingredient {
+  width: 33%;
+  float: left;
+}
+
+.theingredient img {
+  height: 150px;
+  width: 150px; 
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  font-family: "Japanese Brush";
+  padding-bottom: 200px;
+}
+
+.contact-form {
+  padding-top: 300px;
+  margin-left: 100px;
+}
+
+input, textarea {
+  width: 300px;
+  height: 20px;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:20px;
+}
+
+.section-title h3 {
+  font-size: 50px;
+}
+
+.contact-submit {
+  background-color:#dee7ec;
+  color: black;
+  width: 100px;
+  box-shadow: 0 7px #889eab;
+}
+
+.contact-submit:active{
+  position: relative;
+  top:7px;
+  box-shadow:none;
+}
+.footer {
+  width: 100%;
+  background-color: #3a539b;
+  color: #fff;
+  height: 100px;
+  padding: 40px;
+}
+
+.footer-logo {
+  font-size: 32px;
+  float: left;
+}
+
+.footer-right {
+  float: right;
+}
+
+.footer-right a {
+  padding: 10px 100px;
+  color: white;
+  display: block;
+}
+
+.container span {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}

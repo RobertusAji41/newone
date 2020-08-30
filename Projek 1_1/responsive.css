@@ -1,0 +1,31 @@
+@media all and (max-width:1000px){
+    .reasons{
+        width:30%;
+        margin-bottom:50px;
+    }
+
+    .theingredient{
+        width:30%;
+        margin-bottom:10px;
+    }
+}
+
+@media all and (max-width:670px){
+    .reasons{
+        width:100%;
+        margin-bottom:50px;
+    }
+
+    .theingredient{
+        width:100%;
+        margin-bottom:10px;
+    }
+
+    .header-right{
+        display: none;
+    }
+
+    .container span{
+        display: block;
+    }
+}
